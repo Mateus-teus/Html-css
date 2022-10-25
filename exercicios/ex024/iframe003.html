@@ -4,21 +4,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de Iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Faça sua escolha</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, optio cupiditate. Tempora blanditiis veniam fugiat! Nihil, nostrum omnis sint non sapiente animi eaque perspiciatis eligendi quibusdam beatae illo rerum ex.</p>
 
     <ul>
-        <li><a href="#">Primeira página</a></li>
-        <li><a href="#">Segunda página</a></li>
-        <li><a href="#">Terceira página</a></li>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
     </ul>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis numquam sapiente explicabo iure inventore accusamus tempore a laboriosam sequi culpa doloremque excepturi magni quae, aliquid sed earum quia. Quasi, delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae eligendi, numquam quod quo recusandae veniam explicabo velit deserunt tenetur, ex corrupti atque, repudiandae architecto autem quasi dignissimos est. Cumque!</p>
 
-    <iframe src="#">
+    <iframe src="" id="tela" name="frame">
         <p>Infelizmente seu navegador não é compativel com isso.</p>
     </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dolores illo. Veritatis sunt, beatae quod rem voluptates, et illum sint earum nulla quo amet laborum fugit consequatur accusamus mollitia at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laudantium molestias fuga laborum minima quasi? Ipsa adipisci facere veniam debitis aliquam autem quidem laudantium aut facilis at? Quibusdam, enim accusantium!</p>
 </body>
 </html>
