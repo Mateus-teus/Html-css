@@ -5,3 +5,43 @@
         
     }
 }
+
+body, html{
+    background-color: lightgray;
+    position: relative;
+    height: 85vh;
+    
+}
+
+article{
+    background-color: white;
+    width: 50vw;
+    position: absolute;
+    height: 53vh;
+    
+    left: 50%;
+    top: 51%;
+    transform: translate(-50%, -50%);
+
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+}
+
+header{
+    background-color: rgb(148, 148, 148);
+    margin: -30px -8px 0px -8px;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font-weight: bolder;
+}
+
+header  a{
+    color: white;
+    background-color: gray;
+    
+}
